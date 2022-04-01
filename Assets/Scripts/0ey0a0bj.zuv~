@@ -1,0 +1,58 @@
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using TMPro;
+
+public class GameManager: MonoBehaviour
+{
+    public static GameManager Instance;
+
+    public bool gameOver = false;
+    public float speed = 1;
+    public int score = 0;
+    
+    public GameObject scoreDisplay;
+    public GameObject speedDisplay;
+    public Rigidbody player;
+
+    private SceneManager sceneManager;
+
+    public void Awake()
+    {
+        if(Instance != null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
+
+        scoreDisplay = GameObject.Find("ScoreText");
+        scoreDisplay = GameObject.Find("SpeedText");
+        scoreDisplay.SetText("Score: " + score);
+        speedDisplay.SetText("Speed: " + speed);
+    }
+
+    public void Update()
+    {
+        if (gameOver)
+        {
+            
+        }
+    }
+    public void updateScore()
+    {
+        score += 1;
+        scoreDisplay.SetText("Score: " + score);
+        
+        if(score % 5 == 0)
+        {
+            updateSpeed();
+        }
+    }
+
+    public void updateSpeed()
+    {
+        speed += 1;
+        speedDisplay.SetText("Speed: " + speed);
+    }
+}
