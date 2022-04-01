@@ -973,7 +973,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _androidGameId: 4685127
   _iOSGameId: 4685126
-  _testMode: 1
+  _testMode: 0
   _androidAdUnitId: Interstitial_Android
   _iOsAdUnitId: Interstitial_iOS
 --- !u!4 &688332673
