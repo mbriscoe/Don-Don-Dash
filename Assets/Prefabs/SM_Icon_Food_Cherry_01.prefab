@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 5345702319523247862}
   - component: {fileID: 9221271853657637014}
   - component: {fileID: 2057167769939239663}
-  - component: {fileID: -3788052700430969888}
   m_Layer: 0
   m_Name: SM_Icon_Food_Cherry_01
   m_TagString: PickupGood
@@ -128,15 +127,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07e00640a3da144ffa4143447a7c6519, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!75 &-3788052700430969888
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 751036265175124803}
-  m_Enabled: 1
-  m_Force: {x: 0, y: 0, z: 0}
-  m_RelativeForce: {x: 0, y: 0, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}

@@ -48,7 +48,7 @@ public class PlayerController : MonoBehaviour, IGetHealthSystem
             isOnGround = false;
             playerAnim.SetTrigger("Jump_trig");
             dirtParticle.Stop();
-            playerAudio.PlayOneShot(jumpSound, 1.0f);
+            playerAudio.PlayOneShot(jumpSound, 0.5f);
         }
     }
 
@@ -62,7 +62,8 @@ public class PlayerController : MonoBehaviour, IGetHealthSystem
         {
             Damage();
             explosionParticle.Play();
-            playerAudio.PlayOneShot(crashSound, 1.0f);
+            playerAudio.PlayOneShot(crashSound, 0.5f);
+            Destroy(collision.gameObject);
         }
         else if (collision.gameObject.CompareTag("PickupGood"))
         {

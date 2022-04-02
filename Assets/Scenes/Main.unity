@@ -383,7 +383,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startDelay: 4
-  repeatRate: 3
+  repeatRate: 5
   xPos: 32
   yPos: 7
   zPos: 2
@@ -512,10 +512,10 @@ MonoBehaviour:
   isOnGround: 1
   explosionParticle: {fileID: 402709340}
   dirtParticle: {fileID: 1438565936, guid: fb82dfb8d1c7044c69afd2486befecb3, type: 3}
-  jumpSound: {fileID: 8300000, guid: 08ab7053d586c458db3774d33c141a4b, type: 3}
-  crashSound: {fileID: 8300000, guid: e7ee25a47d63b46cdaf65480d62b405c, type: 3}
-  pickupGoodSound: {fileID: 8300000, guid: 113ee460fadc340e4957a7404a9fbb27, type: 3}
-  pickupBadSound: {fileID: 8300000, guid: 913d6445ee8cc4152a9c18da590ee203, type: 3}
+  jumpSound: {fileID: 8300000, guid: 0d0847f52acbec24b8f9c1412913d7f1, type: 3}
+  crashSound: {fileID: 8300000, guid: 4ee75f59e71edd24ca7963d573bd8666, type: 3}
+  pickupGoodSound: {fileID: 8300000, guid: af90dd2dd65e37c43a57fe1318b56d3c, type: 3}
+  pickupBadSound: {fileID: 8300000, guid: 801c68f53c2bf53448ce397a759ec8ad, type: 3}
 --- !u!65 &521954546
 BoxCollider:
   m_ObjectHideFlags: 0

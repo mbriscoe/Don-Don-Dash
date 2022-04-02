@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 4240415851529335123}
   - component: {fileID: 813498362220901686}
   - component: {fileID: 7993770368860289896}
-  - component: {fileID: 6648363790835096665}
   m_Layer: 0
   m_Name: Biohazard
   m_TagString: PickupBad
@@ -128,15 +127,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07e00640a3da144ffa4143447a7c6519, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!75 &6648363790835096665
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4242046057252374778}
-  m_Enabled: 1
-  m_Force: {x: 0, y: 0, z: 0}
-  m_RelativeForce: {x: 0, y: 0, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
