@@ -80,7 +80,7 @@ public class PlayerController : MonoBehaviour, IGetHealthSystem
     }
 
     IEnumerator GameOver() {
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(0f);
         SceneManager.LoadScene("GameOver");
     }
 
