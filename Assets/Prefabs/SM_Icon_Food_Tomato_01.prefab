@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1240319153947707841}
   - component: {fileID: -7105038673095914481}
   - component: {fileID: 7817476665630202728}
-  - component: {fileID: 8036638561774692362}
+  - component: {fileID: -5299594366605851137}
   m_Layer: 0
   m_Name: SM_Icon_Food_Tomato_01
   m_TagString: PickupGood
@@ -115,7 +115,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.38173857, y: 0.38250673, z: 0.08000015}
   m_Center: {x: 0, y: -0.0000003054738, z: 0}
---- !u!114 &8036638561774692362
+--- !u!114 &-5299594366605851137
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

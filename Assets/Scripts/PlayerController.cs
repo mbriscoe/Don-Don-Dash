@@ -8,10 +8,14 @@ using CodeMonkey.HealthSystemCM;
 public class PlayerController : MonoBehaviour, IGetHealthSystem
 {
     public AdManager adManager;
-
     private HealthSystem healthSystem;
-
     private Rigidbody playerRb;
+    private AudioSource playerAudio;
+    
+    public AudioClip jumpSound;
+    public AudioClip crashSound;
+    public AudioClip pickupGoodSound;
+    public AudioClip pickupBadSound;
 
     public float jumpForce;
     public float gravityModifier;
@@ -19,12 +23,6 @@ public class PlayerController : MonoBehaviour, IGetHealthSystem
 
     public ParticleSystem explosionParticle;
     public ParticleSystem dirtParticle;
-
-    private AudioSource playerAudio;
-    public AudioClip jumpSound;
-    public AudioClip crashSound;
-    public AudioClip pickupGoodSound;
-    public AudioClip pickupBadSound;
 
     private Animator playerAnim;
 
